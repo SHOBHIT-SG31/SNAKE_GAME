@@ -6,7 +6,7 @@ pygame.init()
 red = (255,0,0)
 blue = (51,153,255)
 grey = (192,192,192)
-green = (51,102,0)
+green = (52,102,0)
 
 win_width=600
 win_height=400
