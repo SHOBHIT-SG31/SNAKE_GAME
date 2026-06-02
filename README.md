@@ -30,3 +30,50 @@ Make sure you have the following installed:
 Install pygame with:
 ```bash
 pip install pygame
+```
+
+---
+
+## 🚀 How to Run
+1. Clone this repository:
+```bash
+git clone https://github.com/your-username/snake-game.git
+```
+2. Navigate to the project folder:
+```bash
+cd snake-game
+```
+3. Run the game:
+```bash
+python snake.py
+```
+
+---
+
+## 📸 Screenshots
+
+---
+
+## 🧩 Code Highlights
+- Snake Rendering:
+```bash
+def game_snake(snake_block, snake_list):
+    for x in snake_list:
+        pygame.draw.rect(window, green, [x[0], x[1], snake_block, snake_block])
+```
+-Food Generation:
+```bash
+foodx = round(random.randrange(0, win_width - snake_block) / 10.0) * 10.0
+foody = round(random.randrange(0, win_height - snake_block) / 10.0) * 10.0
+```
+
+---
+
+## 🎯 Future Improvements
+- Add difficulty levels (Easy, Medium, Hard)
+- Add sound effects 🎵
+- High score saving system 💾
+- Multiplayer mode ⚔️
+
+---
+
