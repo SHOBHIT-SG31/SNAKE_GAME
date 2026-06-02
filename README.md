@@ -61,7 +61,7 @@ def game_snake(snake_block, snake_list):
     for x in snake_list:
         pygame.draw.rect(window, green, [x[0], x[1], snake_block, snake_block])
 ```
--Food Generation:
+- Food Generation:
 ```bash
 foodx = round(random.randrange(0, win_width - snake_block) / 10.0) * 10.0
 foody = round(random.randrange(0, win_height - snake_block) / 10.0) * 10.0
@@ -77,3 +77,11 @@ foody = round(random.randrange(0, win_height - snake_block) / 10.0) * 10.0
 
 ---
 
+## 🤝 Contributing
+Pull requests are welcome!
+If you’d like to improve the game (new features, bug fixes, UI enhancements), feel free to fork and submit changes.
+
+---
+
+## 👨‍💻 Author
+Developed with ❤️ by Shobhit (SG31)
