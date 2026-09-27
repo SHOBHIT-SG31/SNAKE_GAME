@@ -19,6 +19,7 @@ time.sleep(1)
 
 snake_block = 10
 snake_speed = 15
+#snake_speed=15
 
 clock = pygame.time.Clock()
 
